@@ -26,11 +26,13 @@ module.exports = {
             },
             created_at: {
                 type: Sequelize.DATE,
-                allowNull: false
+                allowNull: false,
+                defaultValue: '00/00/0000',
             },
             updated_at: {
                 type: Sequelize.DATE,
-                allowNull: false
+                allowNull: false,
+                defaultValue: '00/00/0000',
             }
         });
     },
